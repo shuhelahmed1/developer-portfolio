@@ -40,8 +40,24 @@ h2{
 
 .skills-section{
     grid-template-columns: repeat(3, 1fr);
+    grid-gap: 25px;
 }
 
-footer p{
-    text-align: center;
+.skill-icon{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
 }
+
+.skill-icon:hover{
+    box-shadow: 3px 3px 12px rgb(134, 134, 126);
+    transition: all .5s ease;
+    transform: rotate(360deg);
+}
+
+@media only screen and (max-width: 600px) {
+    .skills-section{
+        grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
