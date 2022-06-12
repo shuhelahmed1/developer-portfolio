@@ -39,7 +39,7 @@ h2{
 }
 .social-icon:hover{
     color: black;
-    background-color: orange;
+    background-color: rgb(228, 151, 8);
     transition: all .5s ease-out;
 }
 
